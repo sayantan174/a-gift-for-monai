@@ -1,0 +1,20 @@
+body {
+    background-image: url("1.jpg");
+    background-size: cover;
+}
+h1 {
+    color: yellow;
+    text-align: center;
+    text-shadow: 2px 2px 8px black;
+}
+div {
+    font-size:x-large;
+    font-family:sans-serif;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    color: burlywood;
+}
+.container{display: flex;flex-wrap: wrap;justify-content: center;}
+img{width: 400px;height: 350px;margin: 10px;transition: all 1s;}
+img:hover{transform: scale(1.1);}
+video{margin: 10px;}
